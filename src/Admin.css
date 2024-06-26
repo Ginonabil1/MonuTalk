@@ -1,0 +1,70 @@
+.admin{
+    background-color: #121212;
+    background-image: url(../public/imgs/s2.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.admin-dashboard {
+    background-color: #00000000; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+    padding: 2rem;
+  }
+
+  .Back button{
+    background-color:#00000000;
+    width: 100px;
+    height: 50px;
+    border-radius: 70px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  .Back button:hover{
+    background-color: #474747;
+  }
+  .chart-container {
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.438);
+    height: 400px; /* Adjust height as needed */
+  }
+  
+  .admin h2 {
+    color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .chart-container canvas {
+    background-color: #495057;
+    border-radius: 10px;
+  }
+  .admin .icon-section {
+    margin-top: 70px;
+  }
+  
+  .icon{
+    color: #f8f9fa;
+  }
+  
+  .icon-text {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    margin-top: 0.5rem;
+  }
+  h4 {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #f8f9fa;
+  }
+  
+  button.ml-2 {
+    margin-left: 10px;
+  }
+  

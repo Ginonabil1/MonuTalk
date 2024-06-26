@@ -1,0 +1,303 @@
+.userr{
+    background-color: #121212;
+    background-image: url(../public/imgs/s4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    overflow-y: hidden;
+    height: 250vh;
+}
+.userr .Log_out {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    text-decoration: none;
+    width: 130px;
+    margin-left: auto;
+}
+.userr .Log_out button {
+    background-color: #5E00F2;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: white;
+}
+.cont{
+    padding: 0px 50px;
+}
+.tab1{
+  padding: 50px;
+}
+.design {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.design:hover{
+    transform: scale(1.02);
+}
+
+.design h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.design p {
+    color: #bbbbbb;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .design {
+        padding: 15px;
+    }
+
+    .design h1 {
+        font-size: 20px;
+    }
+
+    .design p {
+        font-size: 14px;
+    }
+}
+
+.userr .rec{
+    padding: 15px 50px;
+    height: 100%;
+  }
+  .userr .rec h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .rec .selc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .form-select {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 15px;
+  }
+  .selected{
+    width: 32%;
+    margin: auto;
+  }
+  .recommendations {
+    height: 100%;
+    padding: 10px;
+  }
+  .recommendations h3{
+    font-weight: bold;
+  }
+  .recommendations .card{
+    margin: 10px;
+    background-color: #100b1d88;
+    border: 2px solid rgb(32, 32, 32);
+    box-shadow: 0px 0px 8px 0px rgb(83, 83, 83);
+    transition: all 0.4s ease-in-out;
+    height: 100%;
+  }
+  .recommendations .card:hover{
+    transform: scale(1.02);
+  }
+  .recommendations .card_name{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background: linear-gradient(183deg,#bac5ff 15.25%,#9e54ff 72.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .recommendations .card .card_p{
+    color:  #aaaaaa;
+    padding-top: 0px;
+    font-weight:600;
+    font-size: 16px;
+  }
+  .recommendations .card .card_p span{
+    color: white;
+    font-weight:600 ;
+    font-size: 18px;
+  }
+  .recommendations .card .card_button{
+    background-color: #5E00F2;
+    border: none;
+  }
+  .recommendations .card .card_button:hover{
+    background-color: #520dc093;
+  }
+  .recommendations .card_button2{
+    background-color: #514f539a;
+    color: white;
+    border: none;
+    margin-left: 15px;
+  }
+  .recommendations .card_button2:hover{
+    background-color: #4746479a;
+  }
+  .recommendations .card_button2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .recommendations .card_button2 span{
+    padding-right: 5px;
+  }
+  
+  .recommendations ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recommendations li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+  #des {
+    color: black;
+  }
+
+
+  .gradient-custom {
+    background-color: rgba(32, 32, 32, 0) ;
+    color: white;
+  } 
+  .chat-container {
+    max-height: 1000px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px;
+    background-color: #25252541; /* Light grey background */
+    border-radius: 5px;
+  }
+  /* el msg  */
+  .gradient-custom .mask-custom {
+    color: white;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+  }
+
+  /* el btaa3 ely mn fo2 */
+  .gradient-custom .msg_head{                 
+    color: white;
+  }
+  /* el asm ely mn fo2 */
+  .gradient-custom .Monu{
+    color: white;
+  }
+  .gradient-custom .msg{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+  }
+  .gradient-custom .msg.user {
+    background-color: blue;
+    color: white;
+    margin-left: auto;
+    width: 50%;
+  }
+  .gradient-custom .msg.bot {
+    background-color: rgb(87, 86, 86);
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .gradient-custom .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gradient-custom .input-container input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+/* ----- */
+.recognition {
+  padding: 20px;
+}
+.recognition #txt{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.recognition .upload{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.recognition .reco_info {
+  padding: 30px 20px;
+}
+.recognition .reco_info h2{
+  font-weight: bold;
+}
+.recognition .reco_info p{
+  font-size: 18px;
+  padding-left: 10px;
+}
+/* ------------------------- */
+.dialogue{
+  padding: 25px;
+}
+.dialogue .voice_txt{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.dialogue .form-dialogue {
+  width: 100%;
+  margin-right: 15px;
+}
+.dialogue .buttons button{
+  margin-right: 15px;
+}
+.dialogue .buttons #start{
+  background-color: rgba(0, 128, 0, 0.726);
+  border: none;
+}
+.dialogue .buttons #stop{
+  color: red;
+}
+.dialogue .dialogue_img{
+  background-color: #121212e8;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .dialogue .dialogue_img{
+    display: block;
+    width: 100%;
+  }
+  .dialogue .dialogue_img img{
+    width: 50%;
+    height: 50%;
+  }
+}

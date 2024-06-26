@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import { BrowserRouter, Routes , Route } from 'react-router-dom'
+import { SyncLoader } from 'react-spinners'
+import Home from './Home'
+import Log from './LoginRegister'
+import Admin from './Admin1'
+import User from './User'
+import './App.css'
 
-function App() {
+
+const App = () => {
+  const [Loading , setloading] = useState(false);
+
+  useEffect(() => {
+    setloading(true);
+    setTimeout(() => {
+      setloading(false)
+    },1500)
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+
+      {Loading?
+      <div className='loading'>
+        <SyncLoader color="white" size={15}/>
+      </div> :
+
+      <>
+
+      <Routes>
+
+      <Route path='/' element={<Home />} />
+      <Route path='LoginRegister' element={<Log />} />
+      <Route path='Admin' element={<Admin />} />
+      <Route path='User' element={<User />} />
+
+      </Routes>
+      </>
+    }
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
