@@ -363,7 +363,7 @@ const User = () => {
                 <Container>
                   <Row>
                     {recommendations.map((rec, index) => (
-                      <Col lg={4} md={6} sm={12} key={index} className="mb-5">
+                      <Col lg={4} md={6} sm={12} key={index} className="mb-4">
                         <Card style={{ width: "100%" }} className="card">
                           <Card.Body>
                             <Card.Title className="card_name">
