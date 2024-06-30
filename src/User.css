@@ -88,9 +88,10 @@
 
 .design p {
     font-size: 12px;
+  }
 }
-}
-
+/* ------ */
+/* recommendation system */
 .userr .rec{
     padding: 15px 50px;
     height: 100%;
@@ -192,8 +193,49 @@
   #des {
     color: black;
   }
+  @media only screen and (max-width: 395px) {
+    .userr .rec h2{
+      font-size: 18px;
+    }
+    .rec .selc {
+      display: block;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .selected{
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+    }
+    .recommendations h3{
+      font-size: 21px;
+    }
+    .recommendations {
+      padding: 0px;
+    }
+    .recommendations .card{
+      height: 94%;
+    }
+    .recommendations .card .card_name{
+      font-size: 18px;
+    }
+    .recommendations .card .card_p{
+      font-size: 13px;
+    }
+    .recommendations .card .card_p span{
+      font-size: 15px;
+    }
+    .recommendations .card .card_button{
+      font-size: 10px;
+    }
+    .recommendations .card_button2{
+      font-size: 10px;
+    }
+  }
 
-
+/* --------- */
+/* chatbot */
   .gradient-custom {
     background-color: rgba(32, 32, 32, 0) ;
     color: white;
@@ -248,6 +290,28 @@
   .gradient-custom .input-container input {
     padding: 8px;
     margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 395px) {
+    .gradient-custom .mask-custom {
+      width: 100%;
+      font-size: 12px;
+    }
+      .gradient-custom .msg_head{                 
+      font-size: 10px;
+    }
+    .gradient-custom .Monu{
+      font-size: 10px;
+    }
+    .gradient-custom .msg{
+      max-width: 100%;
+    }
+    .gradient-custom .msg.user {
+      width: 100%;
+    }
+    .gradient-custom .msg.bot {
+      width: 100%;
+    }    
   }
 /* ----- */
 .recognition {
