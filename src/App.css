@@ -78,7 +78,7 @@ body{
 .navbar button:hover{
   background-color: #5519b6;
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .navbar .login{
     display: none;
   }
@@ -128,9 +128,8 @@ header .slogan .Us{
   color: black;
 }
 /* ------------ */
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .home{
-    width: 100px;
     overflow:hidden;
   }
   header .slogan h3{
@@ -138,6 +137,21 @@ header .slogan .Us{
   }
   header .slogan .Us{
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .home{
+    width: 100%;
+    overflow:hidden;
+  }
+  header .slogan h3{
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+
+  }
+  header .slogan .Us{
+    font-size: 15px;
   }
 }
 
@@ -195,7 +209,7 @@ header .slogan .Us{
   z-index: 1;
 }
 /* -------- */
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .About .sec1 .des{
     font-size: 18px;
     text-align: center;
@@ -260,7 +274,7 @@ header .slogan .Us{
 .center .c1{
   margin-right: 100px;
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .sec2 .center h1{
     font-size: 40px;
   }
@@ -357,7 +371,7 @@ header .slogan .Us{
   background-color: #520dc093;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .cards{
     padding-top: 50px;
   }
@@ -401,7 +415,7 @@ header .slogan .Us{
 .custom-container {
   background-color:#03071ad3;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 32px;
   color: #ffffff;
   max-width: 400px;
   width: 100%;
@@ -490,6 +504,7 @@ header .slogan .Us{
     transform: translateY(0);
   }
 }
+
 /* ---------------- */
 
 /* Scrollbar */
@@ -585,7 +600,7 @@ header .slogan .Us{
   font-size: 14px;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .swiper-slide img {
     display: block;
     width: 90%;
@@ -595,6 +610,18 @@ header .slogan .Us{
   .arrow-overlay {
     width: 90%;
     left: 45%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+  }
+  .arrow-overlay {
+    width: 100%;
+    left: 50%;
   }
 }
 /* ------------------------------- */
@@ -680,7 +707,7 @@ header .slogan .Us{
   font-size: 18px;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .review-card h4{
     font-size: 12px;
 
@@ -694,6 +721,28 @@ header .slogan .Us{
   .review-card #comment{
     text-align: center;
     height: 50%;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .review-card{
+    width: 100%;
+    height: 65%;
+    padding: 10px;
+  }
+  .review-card h4{
+    font-size: 10px;
+
+  }
+  .review-card p{
+    font-size: 8px;
+  }
+  .star {
+    font-size: 10px;
+  }
+  .review-card #comment{
+    text-align: center;
+    height: 30%;
     font-size: 12px;
   }
 }

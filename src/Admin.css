@@ -67,4 +67,8 @@
   button.ml-2 {
     margin-left: 10px;
   }
-  
+  @media only screen and (max-width: 395px) {
+    .Back button{
+      font-size: 16px;
+    }
+  }

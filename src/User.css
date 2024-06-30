@@ -73,6 +73,23 @@
         font-size: 14px;
     }
 }
+@media only screen and (max-width: 395px) {
+
+.design {
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.design h1 {
+    font-size: 16px;
+}
+
+.design p {
+    font-size: 12px;
+}
+}
 
 .userr .rec{
     padding: 15px 50px;
@@ -188,7 +205,7 @@
     background-color: #25252541; /* Light grey background */
     border-radius: 5px;
   }
-  /* el msg  */
+  /* msg  */
   .gradient-custom .mask-custom {
     color: white;
     width: 80%;
@@ -196,11 +213,11 @@
     border: none;
   }
 
-  /* el btaa3 ely mn fo2 */
+  /* msg header */
   .gradient-custom .msg_head{                 
     color: white;
   }
-  /* el asm ely mn fo2 */
+  /* name header */
   .gradient-custom .Monu{
     color: white;
   }
